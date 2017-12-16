@@ -1,4 +1,4 @@
 #! /bin/sh
 
 chown -R minio:minio /data
-/usr/bin/gosu minio /usr/bin/minio server /data
+exec su-exec minio /usr/bin/minio server /data
