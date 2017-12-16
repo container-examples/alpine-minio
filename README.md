@@ -8,8 +8,8 @@ Minio : `latest`
 ## Credentials
 
 **Default :**
-* `MINIO_ACCESS_KEY` : `minio`,
-* `MINIO_SECRET_KEY` : `minio`,
+* `MINIO_ACCESS_KEY` : `docker-minio`,
+* `MINIO_SECRET_KEY` : `docker-minio`,
 * `MINIO_BROWSER` : `on`
 
 **Custom :** In the `.env` file, change the different values to suit your needs.
