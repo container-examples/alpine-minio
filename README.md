@@ -1,4 +1,4 @@
-# Minio
+# Minio [![Build Status](https://drone.aurelienperrier.com/api/badges/Docker-example/alpine-minio/status.svg?branch=master)](https://drone.aurelienperrier.com/Docker-example/alpine-minio)
 
 ## Versions
 
