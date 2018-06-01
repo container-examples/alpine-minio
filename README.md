@@ -1,4 +1,4 @@
-# Minio [![Build Status](https://drone.aurelienperrier.com/api/badges/Docker-example/alpine-minio/status.svg?branch=master)](https://drone.aurelienperrier.com/Docker-example/alpine-minio)
+# Minio [![Docker Repository on Quay](https://quay.io/repository/perriea/alpine-minio/status "Docker Repository on Quay")](https://quay.io/repository/perriea/alpine-minio)
 
 ## Versions
 
@@ -16,5 +16,5 @@ Minio : `latest`
 
 ## Commands
 
-**Pull :** `docker pull perriea/alpine-minio:3.7`   
-**Run :** `docker run -d -p 9000:9000 --env-file .env perriea/alpine-minio:3.7`
+**Pull :** `docker pull quay.io/perriea/alpine-minio:1.0`   
+**Run :** `docker run -d -p 9000:9000 --env-file .env quay.io/perriea/alpine-minio:1.0`
