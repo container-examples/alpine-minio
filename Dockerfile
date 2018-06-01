@@ -1,9 +1,8 @@
-FROM alpine:3.6
+FROM alpine:3.7
 
-LABEL MAINTAINER="Aurelien PERRIER <a.perrier89@gmail.com>"
-LABEL APP="minio"
-LABEL APP_VERSION="latest"
-LABEL APP_REPOSITORY="https://github.com/minio/minio/releases"
+LABEL MAINTAINER "Aurelien PERRIER <a.perrier89@gmail.com>"
+LABEL APP "minio"
+LABEL APP_REPOSITORY "https://github.com/minio/minio/releases"
 
 ENV TIMEZONE Europe/Paris
 ENV MINIO_ACCESS_KEY docker-minio
